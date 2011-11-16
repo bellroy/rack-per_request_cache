@@ -4,16 +4,16 @@ Simple module for caching arbitrary objects / constructs during a request.
 
 ## Usage (Sinatra, Padrino, ...)
 
-  require 'rack/per_request_cache'
-  use Rack::PerRequestCache
+    require 'rack/per_request_cache'
+    use Rack::PerRequestCache
 
 ## Rails
 
-  # Gemfile
-  gem 'rack-per_request_cache', require: 'rack/per_request_cache'
+    # Gemfile
+    gem 'rack-per_request_cache', require: 'rack/per_request_cache'
 
-  # config/application.rb
-  config.use 'Rack::PerRequestCache'
+    # config/application.rb
+    config.use 'Rack::PerRequestCache'
 
 ## Caveats
 
